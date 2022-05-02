@@ -1,20 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {Text, View, StyleSheet } from 'react-native';
+import CustomComponent from './src/screens/CustomComponets'
+
+
+//Creating StyleSheet 
+const styles = StyleSheet.create({
+  textStyle:{
+    color: "red",
+    textAlign : "center",
+    
+  },
+});
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Day_1 of React Native </Text>
-      <StatusBar style="auto" />
+    <View>
+      <Text style={styles.textStyle}> Day_2 of React Native </Text>
+      <CustomComponent></CustomComponent>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
