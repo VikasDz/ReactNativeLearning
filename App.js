@@ -16,9 +16,8 @@ export default function App() {
   const newWord = "Day-3"
   return (
     <View>
-      <Text style={styles.textStyle}> Day_2 of React Native </Text>
+      <Text style={styles.textStyle}> Challenge #1 </Text>
       <CustomComponent></CustomComponent>
-      <Text style={styles.textStyle}>{newWord}</Text> 
     </View>
   );
 }
