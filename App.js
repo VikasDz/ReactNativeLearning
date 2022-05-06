@@ -1,5 +1,6 @@
-import {Text, View, StyleSheet } from 'react-native';
+import {Text, View, StyleSheet,StatusBar } from 'react-native';
 import CustomComponent from './src/screens/CustomComponets'
+import FlatListDemo from './src/screens/FlatListDemo';
 
 
 //Creating StyleSheet 
@@ -13,11 +14,12 @@ const styles = StyleSheet.create({
 
 export default function App() {
 
-  const newWord = "Day-3"
   return (
     <View>
-      <Text style={styles.textStyle}> Challenge #1 </Text>
-      <CustomComponent></CustomComponent>
+      <Text style={styles.textStyle}> Welcome To ReactNative Series </Text>
+      {/* <CustomComponent></CustomComponent> */}
+      <FlatListDemo></FlatListDemo>
+      <StatusBar></StatusBar>
     </View>
   );
 }
