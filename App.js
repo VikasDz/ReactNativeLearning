@@ -1,6 +1,7 @@
 import {Text, View, StyleSheet,StatusBar } from 'react-native';
 import CustomComponent from './src/screens/CustomComponets'
 import FlatListDemo from './src/screens/FlatListDemo';
+import ImagesAdding from './src/screens/ImagesAdding';
 
 
 //Creating StyleSheet 
@@ -18,7 +19,8 @@ export default function App() {
     <View>
       <Text style={styles.textStyle}> Welcome To ReactNative Series </Text>
       {/* <CustomComponent></CustomComponent> */}
-      <FlatListDemo></FlatListDemo>
+      {/* <FlatListDemo></FlatListDemo> */}
+      <ImagesAdding></ImagesAdding>
       <StatusBar></StatusBar>
     </View>
   );
