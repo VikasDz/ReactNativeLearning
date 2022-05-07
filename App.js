@@ -1,4 +1,5 @@
 import {Text, View, StyleSheet,StatusBar } from 'react-native';
+import ButtonReact from './src/screens/ButtonReact';
 import CustomComponent from './src/screens/CustomComponets'
 import FlatListDemo from './src/screens/FlatListDemo';
 import ImagesAdding from './src/screens/ImagesAdding';
@@ -20,7 +21,8 @@ export default function App() {
       <Text style={styles.textStyle}> Welcome To ReactNative Series </Text>
       {/* <CustomComponent></CustomComponent> */}
       {/* <FlatListDemo></FlatListDemo> */}
-      <ImagesAdding></ImagesAdding>
+      {/* <ImagesAdding></ImagesAdding> */}
+      <ButtonReact></ButtonReact>
       <StatusBar></StatusBar>
     </View>
   );
