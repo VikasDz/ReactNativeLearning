@@ -3,6 +3,7 @@ import ButtonReact from './src/screens/ButtonReact';
 import CustomComponent from './src/screens/CustomComponets'
 import FlatListDemo from './src/screens/FlatListDemo';
 import ImagesAdding from './src/screens/ImagesAdding';
+import TouchableOpacitys from './src/screens/TouchableOpacitys';
 
 
 //Creating StyleSheet 
@@ -22,7 +23,8 @@ export default function App() {
       {/* <CustomComponent></CustomComponent> */}
       {/* <FlatListDemo></FlatListDemo> */}
       {/* <ImagesAdding></ImagesAdding> */}
-      <ButtonReact></ButtonReact>
+      {/* <ButtonReact></ButtonReact> */}
+      <TouchableOpacitys></TouchableOpacitys>
       <StatusBar></StatusBar>
     </View>
   );
