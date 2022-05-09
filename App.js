@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   textStyle:{
     color: "purple",
     textAlign : "center",
-    fontSize : 40,
+    fontSize : 20,
     fontWeight :'bold',
   
    
