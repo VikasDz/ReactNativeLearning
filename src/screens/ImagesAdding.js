@@ -1,43 +1,31 @@
 import React from "react";
-import { Text, View, StyleSheet, Image } from "react-native";
+import { Text, View } from "react-native";
+import CardDetails from "../components/CardDetails";
 
 const ImagesAdding = () => {
-
-
   return (
-    <View style={styles3.listStyle}>
-      <Text style={styles3.textStyle}> Hello Duniya :) </Text>
-      <Image
-        style={styles3.imageStyle}
-        source={require("../../assets/image1.jpg")}
+    <View>
+      <Text
+        style={{
+          textAlign: "center",
+          marginTop: 6,
+          marginEnd: 7,
+          marginBottom: 5,
+        }}>
+        Image In React Native :)
+      </Text>
+      <CardDetails 
+      textData = "This is My 1st Image"
+      imgSrc = {require("../../assets/image1.jpg")} />
+      <CardDetails 
+       textData = "This is My 2nd Image"
+       imgSrc = {require("../../assets/image2.jpg")} />
+      <CardDetails 
+      textData = "This is My 3rd Image"
+      imgSrc = {require("../../assets/nodejs.jpg")} 
       />
-      <Image
-        style={styles3.imageStyle}
-        source={require("../../assets/image1.jpg")}
-      />
-      <Image
-        style={styles3.imageStyle}
-        source={require("../../assets/image1.jpg")}
-      />
-      
     </View>
   );
 };
-const styles3 = StyleSheet.create({
-  textStyle: {
-    fontSize: 20,
-    margin: 10,
-  },
-  listStyle: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems : "center",
-  },
-  imageStyle: {
-    width: 300,
-    height: 300,
-    margin: 5,
-  },
-});
 
 export default ImagesAdding;

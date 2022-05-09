@@ -11,7 +11,9 @@ const styles = StyleSheet.create({
   textStyle:{
     color: "red",
     textAlign : "center",
-    
+    fontSize : 20,
+  
+   
   },
 });
 
@@ -22,9 +24,10 @@ export default function App() {
       <Text style={styles.textStyle}> Welcome To ReactNative Series </Text>
       {/* <CustomComponent></CustomComponent> */}
       {/* <FlatListDemo></FlatListDemo> */}
-      {/* <ImagesAdding></ImagesAdding> */}
+      <ImagesAdding></ImagesAdding>
       {/* <ButtonReact></ButtonReact> */}
-      <TouchableOpacitys></TouchableOpacitys>
+      {/* <TouchableOpacitys></TouchableOpacitys> */}
+      
       <StatusBar></StatusBar>
     </View>
   );
