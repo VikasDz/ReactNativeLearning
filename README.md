@@ -1,5 +1,5 @@
-#Netflix Card using React Native 
+#How to use Google Fonts in React Native
  
-#Challenge #3 ✔
+#Fonts In React Native ✔
 
  Lets Get Started.. 😉🔥

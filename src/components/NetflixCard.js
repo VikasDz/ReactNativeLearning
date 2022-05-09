@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
   textStyle: {
     color: "black",
     textAlign: "center",
+    fontFamily :"JosefinSans_200ExtraLight",
     fontSize: 40,
   },
   imageStyle: {
@@ -28,10 +29,12 @@ const styles = StyleSheet.create({
   },
   poster_info: {
     alignItems: "center",
+    fontFamily :"JosefinSans_200ExtraLight",
     marginVertical: 10,
   },
   poster_title: {
     fontSize: 20,
+    fontFamily :"JosefinSans_200ExtraLight",
     marginBottom: 10,
   },
   poster_text: {
