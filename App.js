@@ -4,14 +4,15 @@ import CustomComponent from './src/screens/CustomComponets'
 import FlatListDemo from './src/screens/FlatListDemo';
 import ImagesAdding from './src/screens/ImagesAdding';
 import TouchableOpacitys from './src/screens/TouchableOpacitys';
-
+import NetflixCard from './src/components/NetflixCard';
 
 //Creating StyleSheet 
 const styles = StyleSheet.create({
   textStyle:{
-    color: "red",
+    color: "purple",
     textAlign : "center",
-    fontSize : 20,
+    fontSize : 40,
+    fontWeight :'bold',
   
    
   },
@@ -21,13 +22,13 @@ export default function App() {
 
   return (
     <View>
-      <Text style={styles.textStyle}> Welcome To ReactNative Series </Text>
+      <Text style={styles.textStyle}> Welcome To ReactNative Series ✌</Text>
       {/* <CustomComponent></CustomComponent> */}
       {/* <FlatListDemo></FlatListDemo> */}
-      <ImagesAdding></ImagesAdding>
+      {/* <ImagesAdding></ImagesAdding> */}
       {/* <ButtonReact></ButtonReact> */}
       {/* <TouchableOpacitys></TouchableOpacitys> */}
-      
+      <NetflixCard></NetflixCard>
       <StatusBar></StatusBar>
     </View>
   );
