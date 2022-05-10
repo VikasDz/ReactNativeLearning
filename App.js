@@ -6,6 +6,8 @@ import ImagesAdding from './src/screens/ImagesAdding';
 import TouchableOpacitys from './src/screens/TouchableOpacitys';
 import NetflixCard from './src/components/NetflixCard';
 import AddMultipleStyle from './src/components/AddMultipleStyle';
+import BoxModel from './src/components/BoxModel';
+
 
 import { 
   JosefinSans_100Thin,
@@ -61,7 +63,8 @@ export default function App() {
       {/* <ButtonReact></ButtonReact> */}
       {/* <TouchableOpacitys></TouchableOpacitys> */}
       {/* <NetflixCard></NetflixCard> */}
-      <AddMultipleStyle></AddMultipleStyle>
+      {/* <AddMultipleStyle></AddMultipleStyle> */}
+      <BoxModel></BoxModel>
 
       <StatusBar></StatusBar>
     </View>
