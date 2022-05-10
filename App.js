@@ -7,6 +7,7 @@ import TouchableOpacitys from './src/screens/TouchableOpacitys';
 import NetflixCard from './src/components/NetflixCard';
 import AddMultipleStyle from './src/components/AddMultipleStyle';
 import BoxModel from './src/components/BoxModel';
+import Challenge2 from './src/screens/Challenge2';
 
 
 import { 
@@ -64,7 +65,8 @@ export default function App() {
       {/* <TouchableOpacitys></TouchableOpacitys> */}
       {/* <NetflixCard></NetflixCard> */}
       {/* <AddMultipleStyle></AddMultipleStyle> */}
-      <BoxModel></BoxModel>
+      {/* <BoxModel></BoxModel> */}
+      <Challenge2></Challenge2>
 
       <StatusBar></StatusBar>
     </View>
