@@ -58,7 +58,8 @@ export default function App() {
       {/* <ImagesAdding></ImagesAdding> */}
       {/* <ButtonReact></ButtonReact> */}
       {/* <TouchableOpacitys></TouchableOpacitys> */}
-      <NetflixCard></NetflixCard>
+      {/* <NetflixCard></NetflixCard> */}
+      
       <StatusBar></StatusBar>
     </View>
   );

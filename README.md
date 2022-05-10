@@ -1,5 +1,7 @@
-#How to use Google Fonts in React Native
+#How to use CSS in React Native
  
-#Fonts In React Native ✔
+#CSS In React Native ✔
+
+https://reactnative.dev/docs/text-style-props ✔
 
  Lets Get Started.. 😉🔥
