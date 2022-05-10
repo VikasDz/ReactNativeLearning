@@ -5,6 +5,8 @@ import FlatListDemo from './src/screens/FlatListDemo';
 import ImagesAdding from './src/screens/ImagesAdding';
 import TouchableOpacitys from './src/screens/TouchableOpacitys';
 import NetflixCard from './src/components/NetflixCard';
+import AddMultipleStyle from './src/components/AddMultipleStyle';
+
 import { 
   JosefinSans_100Thin,
   JosefinSans_200ExtraLight,
@@ -59,7 +61,8 @@ export default function App() {
       {/* <ButtonReact></ButtonReact> */}
       {/* <TouchableOpacitys></TouchableOpacitys> */}
       {/* <NetflixCard></NetflixCard> */}
-      
+      <AddMultipleStyle></AddMultipleStyle>
+
       <StatusBar></StatusBar>
     </View>
   );

@@ -1,7 +1,5 @@
-#How to use CSS in React Native
- 
-#CSS In React Native ✔
+#Add Multiple Styles in One Single Elements in React Native ✔
 
-https://reactnative.dev/docs/text-style-props ✔
+React Native Challenge #2
 
  Lets Get Started.. 😉🔥
