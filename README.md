@@ -1,5 +1,7 @@
-#Create Netflix Scrolling Effects in React Native  ✔
+#React Native FlexBox Layout in React Native  ✔
 
-#Challenge #2
+==> https://reactnative.dev/docs/layout-props#flexdirection
 
- Lets Get Started.. 😉🔥
+#🔥🥺
+
+Lets Get Started.. 😉🔥
