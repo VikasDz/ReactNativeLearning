@@ -1,5 +1,4 @@
-#Counter App using useState Hooks in React Native  ✔
-
+#Random Color Generator App in React Native  ✔
 
 #🔥🥺
 

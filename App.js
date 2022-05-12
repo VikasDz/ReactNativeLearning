@@ -11,6 +11,7 @@ import Challenge2 from "./src/screens/Challenge2";
 import FlexboxDemo from "./src/screens/FlexBoxDemo";
 import PositionRelative from "./src/screens/PositionRelative";
 import Hooks from "./src/screens/Hooks";
+import RandomColor from "./src/components/RandomColor";
 
 import {
   JosefinSans_100Thin,
@@ -68,8 +69,8 @@ export default function App() {
       {/* <Challenge2></Challenge2> */}
       {/* <FlexboxDemo></FlexboxDemo> */}
       {/* <PositionRelative></PositionRelative> */}
-
-      <Hooks />
+      {/* <Hooks /> */}
+      {/* <RandomColor/> */}
 
       <StatusBar></StatusBar>
     </View>
