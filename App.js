@@ -9,6 +9,7 @@ import AddMultipleStyle from "./src/components/AddMultipleStyle";
 import BoxModel from "./src/components/BoxModel";
 import Challenge2 from "./src/screens/Challenge2";
 import FlexboxDemo from "./src/screens/FlexBoxDemo";
+import PositionRelative from "./src/screens/PositionRelative";
 
 import {
   JosefinSans_100Thin,
@@ -29,6 +30,7 @@ import {
 
 import { useFonts } from "@expo-google-fonts/josefin-sans";
 import AppLoading from "expo-app-loading";
+
 
 export default function App() {
   let [fontsLoad, error] = useFonts({
@@ -66,6 +68,7 @@ export default function App() {
       {/* <BoxModel></BoxModel> */}
       {/* <Challenge2></Challenge2> */}
       {/* <FlexboxDemo></FlexboxDemo> */}
+      <PositionRelative></PositionRelative>
 
       <StatusBar></StatusBar>
     </View>
