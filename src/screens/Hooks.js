@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Text, StyleSheet, View, TouchableOpacity, LogBox } from "react-native";
+import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
 
 const Hooks = () => {
   const [counter, setCounter] = useState(0);
