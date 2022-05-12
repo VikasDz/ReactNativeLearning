@@ -10,6 +10,7 @@ import BoxModel from "./src/components/BoxModel";
 import Challenge2 from "./src/screens/Challenge2";
 import FlexboxDemo from "./src/screens/FlexBoxDemo";
 import PositionRelative from "./src/screens/PositionRelative";
+import Hooks from "./src/screens/Hooks";
 
 import {
   JosefinSans_100Thin,
@@ -30,7 +31,6 @@ import {
 
 import { useFonts } from "@expo-google-fonts/josefin-sans";
 import AppLoading from "expo-app-loading";
-
 
 export default function App() {
   let [fontsLoad, error] = useFonts({
@@ -57,7 +57,6 @@ export default function App() {
     <View>
       <Text style={styles.textStyle}> Welcome To ReactNative Series ✌</Text>
 
-
       {/* <CustomComponent></CustomComponent> */}
       {/* <FlatListDemo></FlatListDemo> */}
       {/* <ImagesAdding></ImagesAdding> */}
@@ -68,7 +67,9 @@ export default function App() {
       {/* <BoxModel></BoxModel> */}
       {/* <Challenge2></Challenge2> */}
       {/* <FlexboxDemo></FlexboxDemo> */}
-      <PositionRelative></PositionRelative>
+      {/* <PositionRelative></PositionRelative> */}
+
+      <Hooks />
 
       <StatusBar></StatusBar>
     </View>
