@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
   commonStyle: {
     fontSize: 20,
-    paddingVertical: 30,
+    paddingWidth: 30,
     textAlign: "center",
     borderWidth: 5,
     bordercolor: "red",

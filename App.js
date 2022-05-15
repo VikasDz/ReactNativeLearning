@@ -12,6 +12,7 @@ import FlexboxDemo from "./src/screens/FlexBoxDemo";
 import PositionRelative from "./src/screens/PositionRelative";
 import Hooks from "./src/screens/Hooks";
 import RandomColor from "./src/components/RandomColor";
+import APIDemo from "./src/screens/APIDemo";
 
 import {
   JosefinSans_100Thin,
@@ -71,6 +72,7 @@ export default function App() {
       {/* <PositionRelative></PositionRelative> */}
       {/* <Hooks /> */}
       {/* <RandomColor/> */}
+      <APIDemo/>
 
       <StatusBar></StatusBar>
     </View>

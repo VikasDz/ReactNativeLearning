@@ -1,4 +1,4 @@
-#Random Color Generator App in React Native  ✔
+#Rest API, Async-Await, Try Catch & UseEffect Hook in React Native  ✔
 
 #🔥🥺
 
