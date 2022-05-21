@@ -13,6 +13,7 @@ import PositionRelative from "./src/screens/PositionRelative";
 import Hooks from "./src/screens/Hooks";
 import RandomColor from "./src/components/RandomColor";
 import APIDemo from "./src/screens/APIDemo";
+import Page01 from "./src/LoginForm/Page01"
 
 import {
   JosefinSans_100Thin,
@@ -72,7 +73,9 @@ export default function App() {
       {/* <PositionRelative></PositionRelative> */}
       {/* <Hooks /> */}
       {/* <RandomColor/> */}
-      <APIDemo/>
+      {/* <APIDemo/> */}
+
+      <Page01/>
 
       <StatusBar></StatusBar>
     </View>
