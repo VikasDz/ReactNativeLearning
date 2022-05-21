@@ -29,31 +29,31 @@ const APIDemo = () => {
   }, []);
 
   return (
-              
-              
-              
-
-    <FlatList
-      data={myDataUser}
-      renderItem={({ item }) => {
-        return (
-          <View>
-            <View style={styles.Headers}>
-              <Image
-                style={styles.imageStyle}
-                source={{
-                  uri: "https://static-koimoi.akamaized.net/wp-content/new-galleries/2022/05/box-office-kgf-chapter-2-hindi-rises-all-over-again-on-saturday-continues-to-build-on-its-record-total-001.jpg",
-                }}
-              />
-              <Text style={styles.textStyle}>Name : {item.name}</Text>
-              <Text style={styles.textStyle}>Email : {item.email}</Text>
-              <Text style={styles.textStyle}>Gender : {item.gender}</Text>
-              <Text style={styles.textStyle}>Status : {item.status}</Text>
+    <>
+      <Text>List Of Our Users</Text>
+      
+      <FlatList
+        data={myDataUser}
+        renderItem={({ item }) => {
+          return (
+            <View>
+              <View style={styles.Headers}>
+                <Image
+                  style={styles.imageStyle}
+                  source={{
+                    uri: "https://static-koimoi.akamaized.net/wp-content/new-galleries/2022/05/box-office-kgf-chapter-2-hindi-rises-all-over-again-on-saturday-continues-to-build-on-its-record-total-001.jpg",
+                  }}
+                />
+                <Text style={styles.textStyle}>Name : {item.name}</Text>
+                <Text style={styles.textStyle}>Email : {item.email}</Text>
+                <Text style={styles.textStyle}>Gender : {item.gender}</Text>
+                <Text style={styles.textStyle}>Status : {item.status}</Text>
+              </View>
             </View>
-          </View>
-        );
-      }}
-    />
+          );
+        }}
+      />
+    </>
   );
 };
 
