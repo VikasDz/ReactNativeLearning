@@ -58,7 +58,7 @@ export default function App() {
   }
   return (
     <View>
-      <Text style={styles.textStyle}> Welcome To ReactNative Series ✌</Text>
+      {/* <Text style={styles.textStyle}> Welcome To ReactNative Series ✌</Text> */}
 
       {/* <CustomComponent></CustomComponent> */}
       {/* <FlatListDemo></FlatListDemo> */}
